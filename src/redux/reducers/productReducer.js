@@ -1,10 +1,4 @@
-import {
-  ADD_PRODUCT,
-  ADD_TO_CART,
-  PRODUCT_LOADED,
-  REMOVE_FROM_CART,
-  REMOVE_PRODUCT,
-} from "../actionTypes/actionTypes";
+import { ADD_PRODUCT, ADD_TO_CART, PRODUCT_LOADED, REMOVE_FROM_CART, REMOVE_PRODUCT } from "../actionTypes/actionTypes";
 
 const initialState = {
   cart: [],
